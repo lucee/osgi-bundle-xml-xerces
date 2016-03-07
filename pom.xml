@@ -121,8 +121,9 @@
             <Export-Package>*</Export-Package>
             <Require-Bundle>org.lucee.xml.resolver;bundle-version=1.2.0,org.lucee.xml.apis;bundle-version=1.4.1</Require-Bundle>
             <Require-Bundle-Fragment>org.lucee.xalan.serializer;bundle-version=2.7.2</Require-Bundle-Fragment>
-            <Import-Package>!sun.nio.cs</Import-Package>
+            <Import-Package>!sun.nio.cs,*</Import-Package>
             <DynamicImport-Package>sun.nio.cs</DynamicImport-Package>
+          <!-- <Fragment-Host></Fragment-Host> -->
           </instructions>
         </configuration>
         <extensions>true</extensions>
